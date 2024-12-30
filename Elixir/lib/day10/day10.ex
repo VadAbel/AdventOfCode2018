@@ -96,10 +96,10 @@ defmodule Aoc2018.Day10 do
     |> solution1()
   end
 
-  # @doc """
-  # iex> Aoc2018.Day10.part2()
-  # 10639
-  # """
+  @doc """
+  iex> Aoc2018.Day10.part2()
+  10639
+  """
   def part2 do
     File.read!(@input_file)
     |> solution2()
